@@ -1,0 +1,218 @@
+.profile {
+  background-color: #f8f1e7;
+}
+.pinkbar {
+  width: 100px;
+  height: 100vh;
+  background-color: #df9f98;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pinkLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  margin-top: 40px;
+}
+
+.pinkLinks a {
+  color: white;
+  text-decoration: none;
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.pinkLinks a:hover {
+  text-decoration: underline;
+}
+/* styling nav imges*/
+.PinkPlant {
+  width: 70px;
+  margin-top: 15px;
+}
+.ProfilePlant {
+  width: 55px;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+/* styling text*/
+.content h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 45px;
+  color: #df9f98;
+  margin-left: 120px;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.profiletitle {
+  font-family: "Arimo", sans-serif;
+  font-size: 14px;
+  color: #29271f;
+  margin-left: 140px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.card {
+  background-color: #ebc3be;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card h2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 18px;
+  color: #844e4e;
+  margin: 0 0 10px 0;
+}
+
+.details {
+  width: 250px;
+  height: 320px;
+  margin-left: 140px;
+  position: relative;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.details p {
+  margin: 12px 0;
+  font-size: 14px;
+  color: #29271f;
+}
+
+.heart-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 35px;
+}
+
+.reflect {
+  width: 400px;
+  height: 170px;
+  margin-left: 700px;
+  margin-top: -320px;
+}
+
+.reflect-subtitle {
+  font-style: italic;
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+.reflect p {
+  font-family: "Arimo", sans-serif;
+  font-size: 15px;
+  color: #844e4e;
+  font-style: italic;
+}
+
+.garden {
+  width: 600px;
+  height: 180px;
+  margin-left: 500px;
+  margin-top: 20px;
+  position: relative;
+}
+.garden {
+  position: relative;
+}
+
+.garden-image {
+  width: 200px;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+}
+.garden p {
+  font-size: 17px;
+  line-height: 1.4;
+  color: #844e4e;
+  font-family: "Arimo", sans-serif;
+  font-style: italic;
+}
+
+.details label {
+  display: block;
+  font-size: 13px;
+  color: #29271f;
+  font-family: "Arimo", sans-serif;
+  margin-top: 8px;
+}
+
+.details input {
+  width: 100%;
+  padding: 6px 10px;
+  margin-top: 2px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Arimo", sans-serif;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.save-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 8px;
+  background-color: #df9f98;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.save-btn:hover {
+  background-color: #c98881;
+}
+
+.reflect textarea {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: "Arimo", sans-serif;
+  resize: none;
+  box-sizing: border-box;
+}
+.password-box {
+  display: flex;
+  align-items: center;
+}
+
+.password-box button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.password-box button img {
+  width: 25px;
+  height: 25px;
+}

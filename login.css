@@ -1,0 +1,156 @@
+.login-body {
+  background-color: #f4f1ea;
+  font-family: "Arimo", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.login-container {
+  background: #ffffff;
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #5a6b5c;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.login-container p {
+  color: #8c857b;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6e675f;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid #e2ded7;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #faf9f6;
+  color: #333;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #8fa89b;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(143, 168, 155, 0.2);
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #6e675f;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.checkbox-group input[type="checkbox"] {
+  accent-color: #6b7c6e;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox-group a {
+  color: #5a6b5c;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 13px;
+  background-color: #6b7c6e;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #556458;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: 15% auto;
+  padding: 30px;
+  border-radius: 20px;
+  width: 85%;
+  max-width: 420px;
+  color: #5a6b5c;
+  position: relative;
+  text-align: left;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  color: #5a6b5c;
+  font-size: 20px;
+}
+
+.modal-content p {
+  color: #6e675f;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #8c857b;
+  transition: color 0.2s;
+}
+
+.close-btn:hover {
+  color: #333;
+}

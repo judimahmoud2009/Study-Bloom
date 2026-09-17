@@ -1,0 +1,78 @@
+/* styling About us*/
+/* styling nav*/
+.about {
+  background-color: #f8f1e7;
+}
+.bluebar {
+  width: 100px;
+  height: 100vh;
+  background-color: #6ebdeb;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blueLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  margin-top: 40px;
+}
+
+.blueLinks a {
+  color: white;
+  text-decoration: none;
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.blueLinks a:hover {
+  text-decoration: underline;
+}
+/* styling nav imges*/
+.BluePlant {
+  width: 70px;
+  margin-top: 15px;
+}
+.AboutPlant {
+  width: 55px;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+/* styling text*/
+.about h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 45px;
+  color: #2a88b6;
+  margin-left: 120px;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+.about p {
+  font-family: "Arimo", sans-serif;
+  font-size: 14px;
+  color: #29271f;
+}
+/* styling images*/
+.people {
+  margin-left: 160px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.person img {
+  width: 160px;
+  height: 215px;
+  object-fit: cover;
+}
+
+.person {
+  font-size: 16px;
+}

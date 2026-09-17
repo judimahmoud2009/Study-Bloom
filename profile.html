@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="profile.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="profile">
+    <!-- Navbar à gauche -->
+    <nav class="pinkbar">
+      <img src="assests/PinkPlant.png" class="PinkPlant" alt="plant" />
+      <div class="pinkLinks">
+        <a href="index.html">Home</a>
+        <a href="study.html">Study Space</a>
+        <a href="mind.html">Mind Garden</a>
+        <a href="profile.html">Profile</a>
+        <a href="about.html">About Us</a>
+      </div>
+      <img src="assests/ProfilePlant.png" class="ProfilePlant" alt="Plant" />
+    </nav>
+
+    <!-- Contenu principal -->
+    <div class="content">
+      <h1>Profile</h1>
+      <p class="profiletitle">Welcome to your Space.</p>
+
+      <div class="grid-container">
+        <!-- Your Details box -->
+        <div class="card details">
+          <h2>Your Details</h2>
+
+          <label>Name:</label>
+          <input type="text" id="userName" placeholder="Enter your name" />
+
+          <label>Email:</label>
+          <input type="email" id="userEmail" placeholder="Enter your email" />
+
+          <label>Password:</label>
+
+          <div class="password-box">
+            <input type="password" id="userPass" placeholder="Enter password" />
+
+            <button type="button" onclick="togglePassword()">
+              <img src="assests/pass.png" alt="Show password" />
+            </button>
+          </div>
+
+          <button class="save-btn" onclick="saveDetails()">Save</button>
+        </div>
+
+        <!-- Right boxes -->
+        <div class="right-boxes">
+          <div class="card reflect">
+            <h2>Reflect:</h2>
+            <p><i>What's on your mind</i></p>
+
+            <textarea placeholder="Write your thoughts here..."></textarea>
+          </div>
+
+          <div class="card garden">
+            <h2>Your Garden:</h2>
+
+            <img
+              src="assests/garden.png"
+              alt="Your Garden"
+              class="garden-image"
+            />
+
+            <p>
+              The more you study and take care of yourself, <br />the more your
+              garden grows!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const savedName = localStorage.getItem("profileName");
+      const savedEmail = localStorage.getItem("profileEmail");
+      const savedPassword = localStorage.getItem("profilePass");
+
+      document.getElementById("userName").value = savedName || "";
+      document.getElementById("userEmail").value = savedEmail || "";
+      document.getElementById("userPass").value = savedPassword || "";
+    </script>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

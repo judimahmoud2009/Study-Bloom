@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mind Garden</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="mind.css" />
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body class="mind">
+    <!-- nav bar-->
+    <nav class="purplebar">
+      <img src="assests\PurplePlant.png" class="PurplePlant" alt="plant" />
+
+      <div class="purpleLinks">
+        <a href="index.html">Home</a>
+        <a href="study.html">Study Space</a>
+        <a href="mind.html">Mind Garden</a>
+        <a href="about.html">About Us</a>
+        <a href="profile.html">Profile</a>
+      </div>
+      <img src="assests\MindPlant.png" class="MindPlant" alt="Plant" />
+    </nav>
+
+    <!-- text -->
+    <h1>Mind Garden</h1>
+    <p class="mindtitle">Check in with youself. Take a breath. You Matter</p>
+
+    <!--feelings part-->
+    <div class="feelingBox">
+      <h2 class="feelingQuestion">How are you feeling?</h2>
+      <div class="feelings">
+        <label class="feeling">
+          <input type="radio" name="feeling" value="great" />
+          <img src="assests\great.png" alt="Great" />
+          <span>Great</span>
+        </label>
+
+        <label class="feeling">
+          <input type="radio" name="feeling" value="good" />
+          <img src="assests\good.png" alt="Good" />
+          <span>Good</span>
+        </label>
+
+        <label class="feeling">
+          <input type="radio" name="feeling" value="Okay" />
+          <img src="assests\okay.png" alt="Okay" />
+          <span>Okay</span>
+        </label>
+
+        <label class="feeling">
+          <input type="radio" name="feeling" value="Stressed" />
+          <img src="assests\stressed.png" alt="Stressed" />
+          <span>Stressed</span>
+        </label>
+
+        <label class="feeling">
+          <input type="radio" name="feeling" value="Overwhelmed" />
+          <img src="assests\overwhelmed.png" alt="Overwhelmed" />
+          <span>Overwhelmed</span>
+        </label>
+      </div>
+      <div id="feelingMessage" class="feelingMessage"></div>
+    </div>
+    <!--Positive messages-->
+    <div class="messageBox">
+      <h2>💜 Daily Message: 💜</h2>
+
+      <p id="message">Click the button for a positive message!</p>
+
+      <button id="messageButton">Generate</button>
+    </div>
+    <script src="mind.mjs"></script>
+  </body>
+</html>
+<!--breathing exercises-->
+<div class="breathingBox">
+  <h3>Breathing Exercises:</h3>
+
+  <iframe
+    width="300"
+    height="170"
+    src="https://www.youtube.com/embed/LiUnFJ8P4gM"
+    title="Breathing Exercises"
+    allowfullscreen
+  >
+  </iframe>
+</div>

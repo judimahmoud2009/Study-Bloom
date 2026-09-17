@@ -1,0 +1,210 @@
+/* styling Mind Garden*/
+/* styling nav*/
+.mind {
+  background-color: #f8f1e7;
+}
+.purplebar {
+  width: 100px;
+  height: 100vh;
+  background-color: #a37bbd;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.purpleLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  margin-top: 40px;
+}
+
+.purpleLinks a {
+  color: white;
+  text-decoration: none;
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.purpleLinks a:hover {
+  text-decoration: underline;
+}
+/* styling nav imges*/
+.PurplePlant {
+  width: 70px;
+  margin-top: 15px;
+}
+.MindPlant {
+  width: 55px;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+/* styling text*/
+.mind h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 45px;
+  color: #763b9d;
+  margin-left: 120px;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.mindtitle {
+  font-family: "Arimo", sans-serif;
+  font-size: 14px;
+  color: #29271f;
+  margin-left: 120px;
+}
+
+/* styling emojis*/
+/* feeling box*/
+.feelingBox {
+  width: 700px;
+  height: 230px;
+  background-color: #d9c8e4;
+  margin-left: 120px;
+  margin-top: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.feelings {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 10px;
+}
+.feelingQuestion {
+  margin: 20px 0 10px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  color: #5d4070;
+  font-weight: bold;
+}
+.feeling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.feeling input {
+  display: none;
+}
+
+.feeling img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.feeling span {
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+/* positive message box */
+
+.messageBox {
+  width: 750px;
+  height: 200px;
+  background-color: #d9c8e4;
+  margin-left: 120px;
+  margin-top: 30px;
+  border-radius: 30px;
+  transform: translateY(180px);
+  position: relative;
+}
+
+.messageBox h2 {
+  position: absolute;
+  left: 25px;
+  top: 20px;
+  margin: 0;
+  color: #5d4070;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.messageBox p {
+  position: absolute;
+  left: 150px;
+  right: 150px;
+  top: 75px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Arimo", sans-serif;
+  color: #29271f;
+}
+
+.messageBox button {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  background-color: #a37bbd;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-family: "Arimo", sans-serif;
+  cursor: pointer;
+}
+/*breathingbox*/
+.mind h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #763b9d;
+  margin-left: 10px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  transform: translateY(7px);
+}
+
+.breathingBox {
+  width: 350px;
+  height: 270px;
+  background-color: #d9c8e4;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 20px;
+  transform: translate(-10px, -270px);
+  position: relative;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.breathingBox h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #5d4070;
+  margin: 0 0 8px 0;
+  text-align: left;
+}
+
+.breathingBox iframe {
+  width: 100%;
+  height: 180px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+}
+.feelingMessage {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: Arimo, sans-serif;
+  font-size: 18px;
+  color: #763b9d;
+  min-height: 25px;
+}

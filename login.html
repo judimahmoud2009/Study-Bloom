@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Bloom - Sign Up</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body class="login-body">
+    <div class="login-container">
+      <h2>Welcome to Study Bloom!</h2>
+      <p>Please enter your details to create an account</p>
+
+      <form action="index.html" method="GET" id="signup-form">
+        <div class="input-group">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@mail.com"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="••••••••"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="••••••••"
+            required
+          />
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="terms" required />
+          <label for="terms"
+            >I agree to the
+            <a href="#" onclick="openTerms(event)">Terms & Conditions</a></label
+          >
+        </div>
+
+        <button type="submit" class="submit-btn">Create Account</button>
+      </form>
+    </div>
+
+    <div id="terms-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeTerms()">&times;</span>
+        <h3>Terms & Conditions</h3>
+        <ol>
+          <li>Be respectful and supportive to all study partners.</li>
+          <li>Keep your account details and progress honest.</li>
+          <li>Enjoy your study sessions and stay consistent!</li>
+        </ol>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
